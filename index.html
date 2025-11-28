@@ -160,6 +160,12 @@
             line-height: 1.5;
         }
 
+        .project-links {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
         .project-link {
             display: inline-flex;
             align-items: center;
@@ -235,6 +241,10 @@
                 align-items: center;
                 gap: 15px;
             }
+            
+            .project-links {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
@@ -260,31 +270,37 @@
                 <!-- Heart Haven Project -->
                 <div class="project-card heart-haven">
                     <h3 class="project-title">💖 Heart Haven - Mental Wellness Platform</h3>
-                    <p class="project-description">A compassionate platform helping students manage emotions and mental wellness through interactive tools, mood tracking, and supportive resources.</p>
-                    <a href="YOUR_LIVE_LINK_HERE" class="project-link" target="_blank">
-                        🌐 Live Demo
-                    </a>
-                    <a href="YOUR_GITHUB_LINK_HERE" class="project-link" target="_blank">
-                        📂 View Code
-                    </a>
+                    <p class="project-description">A compassionate platform helping students manage emotions and mental wellness through interactive tools, mood tracking, and supportive resources. Built with React, Node.js, and MongoDB to provide a safe space for emotional well-being.</p>
+                    <div class="project-links">
+                        <a href="https://hearthavenf.onrender.com" class="project-link" target="_blank">
+                            🌐 Live Demo
+                        </a>
+                        <a href="https://github.com/Vigna200/HeartHaven" class="project-link" target="_blank">
+                            📂 View Code
+                        </a>
+                    </div>
                 </div>
 
                 <!-- Farm2Home Project -->
                 <div class="project-card">
                     <h3 class="project-title">🚜 Farm2Home Agricultural Marketplace</h3>
-                    <p class="project-description">Full-stack B2B platform with 25+ REST APIs, secure authentication, and real-time market data for farmers and buyers.</p>
-                    <a href="https://github.com/Vigna200/Farm2Home" class="project-link" target="_blank">
-                        📂 View on GitHub
-                    </a>
+                    <p class="project-description">Full-stack B2B platform with 25+ REST APIs, secure authentication, and real-time market data for farmers and buyers. Features include role-based access control, payment integration, and inventory management.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Vigna200/Farm2Home" class="project-link" target="_blank">
+                            📂 View on GitHub
+                        </a>
+                    </div>
                 </div>
 
                 <!-- AI Resume Checker -->
                 <div class="project-card">
                     <h3 class="project-title">🤖 AI Resume Screening System</h3>
-                    <p class="project-description">AI-powered resume analyzer using TF-IDF and cosine similarity algorithms for automated candidate ranking and skill gap analysis.</p>
-                    <a href="https://github.com/Vigna200/ai-resume-checker" class="project-link" target="_blank">
-                        📂 View on GitHub
-                    </a>
+                    <p class="project-description">AI-powered resume analyzer using TF-IDF and cosine similarity algorithms for automated candidate ranking and skill gap analysis. Processes 1000+ resumes with 95% accuracy and reduces screening time by 60%.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Vigna200/ai-resume-checker" class="project-link" target="_blank">
+                            📂 View on GitHub
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -303,7 +319,7 @@
                 </div>
                 <div class="skill-category">
                     <h3 class="skill-title">Areas of Expertise</h3>
-                    <p>Full-Stack Development, AI/ML, Data Structures, Algorithms</p>
+                    <p>Full-Stack Development, AI/ML, Data Structures, Algorithms, System Design</p>
                 </div>
             </div>
         </section>
@@ -323,6 +339,9 @@
                 </li>
                 <li class="achievement-item">
                     <strong>⚡ LeetCode</strong> - 156+ problems solved with 1420 contest rating (Top 25%)
+                </li>
+                <li class="achievement-item">
+                    <strong>🏆 CGPA 9.8/10</strong> - Consistent academic excellence in Computer Science
                 </li>
             </ul>
         </section>
